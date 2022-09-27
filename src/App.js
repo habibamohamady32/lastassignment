@@ -18,7 +18,6 @@ function App() {
     <Router>
     <NavBarr />
        <Routes>
-     
          <Route path="/" element={<><CarouselFadeExample /><h1>Welcome Home</h1> </>} />
          <Route path="/home" element={<><CarouselFadeExample /><h1>Welcome Home</h1> </>} />
          <Route path='/products' element={<><Products/></>}/>
